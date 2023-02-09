@@ -1,3 +1,3 @@
 # Mobile
-Moraga Hernández, Marta Xioayang
+Moraga Hernández, Marta Xiaoyang
 001101267
