@@ -5,4 +5,32 @@
     <string name="list">List</string>
     <string name="night_mode">Night Mode</string>
     <string name="day_mode">Day Mode</string>
+
+    <string-array name="recipes">
+        <item>Pasta</item>
+        <item>Pizza</item>
+        <item>Salad</item>
+        <item>Soup</item>
+        <item>Stew</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Easy pasta recipe for a quick lunch</item>
+        <item>Homemade pizza to enjoy a night in</item>
+        <item>Healthy and filling salad</item>
+        <item>Basic soup recipe everyone can do</item>
+        <item>Rich and flavourful stew for the family</item>
+    </string-array>
+
+
+    <string-array name="instructions">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh. </item>
+    </string-array>
+
+
+
 </resources>

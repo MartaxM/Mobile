@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /**
+         * Gets the button that leads to the RecipesActivity and adds an OnClick listener to start the
+         * change in context when pressed
+         **/
         Button recipesBtn = (Button) findViewById(R.id.recipesBtn);
         recipesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /**
+         * Gets the button that leads to the Lidl website and adds an OnClick listener to open
+         * said page when pressed
+         **/
         Button buyBtn = (Button) findViewById(R.id.buyBtn);
         buyBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +52,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /**
+         * Gets the button that leads to the ListActivity and adds an OnClick listener to start the
+         * change in context when pressed
+         **/
         Button listBtn = (Button) findViewById(R.id.listBtn);
         listBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,14 +65,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /**
+         * Gets the switch that changes day/night mode
+         **/
         SwitchMaterial modeSwitch = (SwitchMaterial) findViewById(R.id.modeSwitch);
         modeSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+                // when checked, night_mode is on
                 if (isChecked){
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
                     compoundButton.setText(R.string.night_mode);
                 } else {
+                    // else, day_mode is on
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
                     compoundButton.setText(R.string.day_mode);
                 }
