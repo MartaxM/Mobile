@@ -15,7 +15,7 @@
             android:name=".RecipeDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name=".RecActivity"
             android:exported="false" />
         <activity
             android:name=".RecipesActivity"

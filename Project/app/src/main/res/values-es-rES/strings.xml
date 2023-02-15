@@ -1,26 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Project</string>
-    <string name="recipes">Recipes</string>
-    <string name="buy">Buy</string>
-    <string name="recommendation">Recommendation</string>
-    <string name="night_mode">Night Mode</string>
-    <string name="day_mode">Day Mode</string>
-    <string name="new_rex_btn">New one</string>
+    <string name="app_name">Proyecto</string>
+    <string name="recipes">Recetas</string>
+    <string name="buy">Comprar</string>
+    <string name="night_mode">Modo Noche</string>
+    <string name="day_mode">Modo Día</string>
 
     <string-array name="recipes">
         <item>Pasta</item>
         <item>Pizza</item>
-        <item>Salad</item>
-        <item>Soup</item>
-        <item>Stew</item>
+        <item>Ensalada</item>
+        <item>Sopa</item>
+        <item>Estofado</item>
     </string-array>
 
     <string-array name="descriptions">
-        <item>Easy pasta recipe for a quick lunch</item>
-        <item>Homemade pizza to enjoy a night in</item>
-        <item>Healthy and filling salad</item>
-        <item>Basic soup recipe everyone can do</item>
-        <item>Rich and flavourful stew for the family</item>
+        <item>Fácil receta de pasta para un almuerzo rápido</item>
+        <item>Pizza casera para disfrutar una noche en casa</item>
+        <item>Enslada sana y saciante</item>
+        <item>Receta de sopa básica que cualquiera puede hacer</item>
+        <item>Rico y sabroso estofado para la familia</item>
     </string-array>
 
 
@@ -31,7 +30,6 @@
         <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh.</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh. </item>
     </string-array>
-
-
-
+    <string name="new_rex_btn">Nueva</string>
+    <string name="recommendation">Recomendación</string>
 </resources>

@@ -9,8 +9,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.ListView;
-import android.widget.Switch;
 
 import com.google.android.material.switchmaterial.SwitchMaterial;
 
@@ -60,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         listBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startIntent = new Intent(getApplicationContext(), ListActivity.class);
+                Intent startIntent = new Intent(getApplicationContext(), RecActivity.class);
                 startActivity(startIntent);
             }
         });

@@ -21,6 +21,7 @@ public class RecipesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipes);
 
+        // Get the strings
     Resources res = getResources();
     recipesListView = (ListView) findViewById(R.id.recipesListView);
     recipes = res.getStringArray(R.array.recipes);
@@ -31,12 +32,14 @@ public class RecipesActivity extends AppCompatActivity {
 
         recipesListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         @Override
-        // On click, start RecipeDetailActivity to see the detais of each recipe
+
+        // On click, start RecipeDetailActivity to see the details of each recipe
         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
             Intent showRecipeDetailActivity = new Intent(getApplicationContext(), RecipeDetailActivity.class);
             showRecipeDetailActivity.putExtra("com.example.project.ITEM_INDEX", i);
             showRecipeDetailActivity.putExtra("com.example.project.ITEM_NAME", recipes[i]);
             showRecipeDetailActivity.putExtra("com.example.project.ITEM_DESC", descriptions[i]);
+            //Sending index and strings as extras
             startActivity(showRecipeDetailActivity);
         }
     });

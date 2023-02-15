@@ -1,26 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Project</string>
-    <string name="recipes">Recipes</string>
-    <string name="buy">Buy</string>
-    <string name="recommendation">Recommendation</string>
-    <string name="night_mode">Night Mode</string>
-    <string name="day_mode">Day Mode</string>
-    <string name="new_rex_btn">New one</string>
+    <string name="app_name">Hanke</string>
+    <string name="recipes">Reseptejä</string>
+    <string name="buy">Osta</string>
+    <string name="night_mode">Yötila</string>
+    <string name="day_mode">Päivätila</string>
 
     <string-array name="recipes">
         <item>Pasta</item>
         <item>Pizza</item>
-        <item>Salad</item>
-        <item>Soup</item>
-        <item>Stew</item>
+        <item>Salaatti</item>
+        <item>Keitto</item>
+        <item>Muhennos</item>
     </string-array>
 
     <string-array name="descriptions">
-        <item>Easy pasta recipe for a quick lunch</item>
-        <item>Homemade pizza to enjoy a night in</item>
-        <item>Healthy and filling salad</item>
-        <item>Basic soup recipe everyone can do</item>
-        <item>Rich and flavourful stew for the family</item>
+        <item>Helppo pastaresepti nopeaan lounaaseen</item>
+        <item>Kotitekoista pizzaa illan viettoon</item>
+        <item>Terveellinen ja täyttävä salaatti</item>
+        <item>Peruskeittoresepti, jonka jokainen voi tehdä</item>
+        <item>Runsas ja maukas muhennos perheelle</item>
     </string-array>
 
 
@@ -31,7 +30,7 @@
         <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh.</item>
         <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris molestie a felis non pulvinar. Vivamus ut tortor in orci tincidunt cursus. Quisque rutrum augue enim, sit amet vehicula orci cursus tempus. Aenean rutrum dolor a felis dapibus, tempor rutrum nunc tincidunt. Nullam tristique dui et gravida finibus. Suspendisse eget lobortis neque. Proin vitae fermentum nibh. </item>
     </string-array>
-
-
+    <string name="new_rex_btn">Uusi</string>
+    <string name="recommendation">Suositus</string>
 
 </resources>
